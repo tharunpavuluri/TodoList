@@ -1,0 +1,146 @@
+.sud{
+    margin: 0 auto;
+    margin-top: 7%;
+    height: 450px;
+    width:600px;
+    background-color:#497174;
+    padding: 20px;
+    border: 15px auto;
+    border-radius: 30px;
+    
+   
+    
+}
+.Enter{
+    height: 50px;
+    width: 500px;
+    border-radius: 25px;
+    font-size: 1rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+    left: 10px;
+    top:10px;
+    text-align:center;
+    margin-bottom: 10px;
+}
+#spi{
+    color: #F94A29;
+    width: 50px;
+    height: 30px;
+    position: relative;
+    right: 60px;
+    top: 5px;
+    border: 0;
+}
+.body{
+    background-color: #D6E4E5;
+}
+.text{
+    text-align: center;
+    color: #A0E4CB;
+    margin-top: 0;
+   
+
+}
+#clock{
+    color: red;
+    position: relative;
+    
+}
+.tasklist{
+    height: 32vh;
+    margin-top: 15px;
+    overflow-y: scroll;
+   
+}
+.item{
+    width: 90%;
+    height: 40px;
+    background-color: #D6E4E5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px 20px;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 5px #ef9e8d ;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.item-btn{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-top: 0;
+}
+  .item.completed p{
+    text-decoration: line-through;
+}
+.item i{
+    color: #F94A29;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+
+
+ @media(max-width: 360px){
+    .sud{
+        width: 80%;
+        height: 400px;
+    }
+    .Enter{
+        width: 95%;
+        height: 13%;
+        margin-bottom: 10px;
+    }
+    #spi{
+        width: 40px;
+        position: absolute;
+        top: 105px;
+        right: 70px;
+        border-radius: 50px;
+
+    }
+    .tasklist{
+        overflow-y: scroll ;
+    }
+    .item{
+        margin-bottom: 20px;
+        height: 40px;
+    }
+ }
+ @media(max-width: 620px){
+    .sud{
+        width: 80%;
+        height: 400px;
+    }
+    .Enter{
+        width: 95%;
+        height: 13%;
+        margin-bottom: 10px;
+    }
+    #spi{
+        width: 40px;
+        position: absolute;
+        top: 120px;
+        right: 100px;
+        border-radius: 50px;
+
+    }
+    .tasklist{
+        overflow-y: scroll ;
+    }
+    .item{
+        margin-bottom: 20px;
+        height: 40px;
+        width: 70%;
+        font-size: 15px;
+        font-weight: 30;
+    }
+ }
+
+
