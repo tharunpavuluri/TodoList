@@ -1,1 +1,1 @@
-# To Do List By Sai Tharun
+# The To-Do List is a simple web-based task management application. It includes an HTML interface (`index.html`), a CSS stylesheet (`stylesheet.css` & `mobile.css` for responsive design), and JavaScript functionality (`script.js`) to manage tasks dynamically. Users can add, remove, and track tasks efficiently. The project appears to be a lightweight, front-end-focused implementation, ideal for personal use or as a beginner-friendly introduction to web development.
